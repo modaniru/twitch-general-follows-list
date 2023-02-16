@@ -5,10 +5,10 @@
 - **request**
 GET /api/v1/twitch/general-following-list?first-user=user1&second-user=user2
 - **response**
-	  [
+	  `[
 		{
-			'channel-name': 'username'
+			'channel-name': 'username',
 			'image-link': 'link'
 		},
 		...
-	  ]
+	  ]`
